@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Header style */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+}
+
+.header li {
+  margin-left: 2rem;
+  list-style: none;
+}
+
+/* container style */
+.container {
+  background-color: white;
+  border: 2px solid lightgray;
+  box-shadow: 0 0 20px 0px #00000078;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 2px solid;
+  box-shadow: 0px 2px 4px 0;
+}
+
+.container h1 {
+  font-size: 36px;
+  margin: 30px auto;
+  border-top: 3px solid lightgray;
+  border-bottom: 3px solid lightgrey;
+  background-color: #f4f4f4;
+}
+
+.container p {
+  margin-bottom: 15px;
+  padding: 0 50px;
+}
+
+/* Home style */
+.header-home {
+  background-color: white;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid lightgray;
+}
+
+.container-home {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.daftar {
+  margin-top: 35px;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 15px;
+}
+
+.manga {
+  display: flex;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 30px;
+}
+
+.manga img {
+  width: 350px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.sinopsis {
+  padding: 0 20px;
+  text-align: left;
+}
+
+.sinopsis a {
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 0px 10px;
+  margin-top: 15px;
+  border: 1px solid lightgray;
+}
+
+.request a {
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 0 10px;
+  margin: 15px 0;
+  border: 1px solid lightgray;
+}
+
+/* footer style */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* Hover style */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0056b3;
+  text-decoration: underline;
+}
